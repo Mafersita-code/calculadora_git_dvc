@@ -4,3 +4,5 @@ def sumar(a, b):              # Define la función para sumar.
 def restar(a, b):             # Define la función para restar.
     return a - b              # Devuelve la diferencia.
 
+def multiplicar(a, b):        # Define la multiplicación.
+    return a * b              # Devuelve el producto.
