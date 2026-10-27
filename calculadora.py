@@ -14,3 +14,6 @@ def dividir(a, b):            # Define la división.
     return a / b              # Devuelve el cociente.
 def seno(angulo):                # Recibe un ángulo en grados.
     return math.sin(math.radians(angulo))  # Calcula el seno.
+
+def coseno(angulo):              # Recibe un ángulo en grados.
+    return math.cos(math.radians(angulo))  # Calcula el coseno.v
