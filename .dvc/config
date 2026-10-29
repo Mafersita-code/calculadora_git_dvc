@@ -1,0 +1,4 @@
+[core]
+    remote = mi_remote
+['remote "mi_remote"']
+    url = /Users/kipandisita_8/dvc-storage
