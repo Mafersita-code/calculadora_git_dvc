@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  resumen:
+    cmd: python3 -m scripts.procesar
+    deps:
+    - path: datos/operaciones.csv
+      hash: md5
+      md5: 54055d104661226e60a2909a8221cd2f
+      size: 2590
+    - path: scripts/procesar.py
+      hash: md5
+      md5: 5b703e6c236a6717c87dca1b92b5bda4
+      size: 1483
+    outs:
+    - path: resultados/resumen.csv
+      hash: md5
+      md5: 6ce2f108d6043fb7cc23079c5859387e
+      size: 142
